@@ -234,7 +234,7 @@ with col1:
 
     summary_formatted = summary.apply(lambda col: col.map(fmt_number))
 
-    st.dataframe(summary_formatted, use_container_width=True, height=140)
+    st.dataframe(summary_formatted, use_container_width=True, height=105)
 
 with col2:
     st.markdown("### Persentase GIRO per Bank")
